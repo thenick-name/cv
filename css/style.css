@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E3FDFD;
+}
+.top{
+    position: relative;
+    padding: 225px;
+    border-bottom: solid #A6E3E9 5px;
+}
+h1 {
+    color: #71C9CE;
+    font-size: 5.6em;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: #71C9CE;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    color: #A084CA;
+}
+.musicnote {
+    position:absolute;
+    top: 15%;
+    right: 45%;
+    width: 100px;
+    border-radius: 10px;
+}
+.music-staff {
+    position:absolute;
+    left: 30%;
+    bottom: 5px;
+    width: 40%;
+}
+.middle {
+    padding: 50px;
+    background-color: #F9F9F9;
+}
+.headshot {
+    position: relative;
+    border-radius: 50px;
+}
+hr {
+    border-top: dotted #c3c3c3 10px;
+    border-bottom: none;
+    width: 30%;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+.container {
+    width: 50%;
+    margin: 25px auto;
+}
+.column {
+    display: inline-block;
+}
+.lang-left {
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.lang-right {
+    width: 60%;
+}
+.lead-left {
+    width: 80%;
+    text-align: left;
+}
+.lead-right {
+    float: right;
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.skills-left {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.skills-right {
+    width: 60%;
+    text-align: right;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #645CAA;
+}
+a:hover, a:active {
+    text-decoration: underline;
+    color: #71C9CE;
+}
+.contact-link:link, .contact-link:visited {
+    background-color: #EBC7E8;
+    border: 2px solid #645CAA;
+    padding: 10px;
+    border-radius: 50px;
+}
+.contact-link:hover, .contact-link:active {
+    color: #71C9CE;
+    background-color: #c8f1f5;
+    border: 2px solid #71C9CE;
+    padding: 10px;
+    border-radius: 50px;
+}
+.bottom {
+    border-top: solid #A6E3E9 5px;
+    padding: 20px;
+}
+.contact-left {
+    width: 50%;
+    margin: 10px auto;
+    text-align: left;
+}
+.contact-right {
+    width: 50%;
+    float: right;
+}
+.submit {
+    width: 78%;
+    float: left;
+    margin-bottom: 100px;
+}
